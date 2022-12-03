@@ -1,0 +1,387 @@
+font-face{
+    font-family: 'greylight demo'; src: url('greylight demo.otf') ;
+}
+/*couleur verte*/
+.ss-header-flex-txt-vert,.nos_recette-absolutehaut-petit-vert,.nos_recette-plats_popu-tt-autostar,.nos_recette-plats_popu-tt-autoprix,.A_propos-absolutehaut-petit-vert,.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar .retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar-autostar{
+    color: rgb(22, 107, 22);
+}
+/*couleur bleu*/
+.ss-header-flex-txt-grandbleu,.nos_recette-plats_popu-tt-autonom,.A_propos-absolutehaut-moyen-bleu,.A_propos-txt_a_gauche-titre,.nos-menu-menu_tt-1-1 .bibi-suit-heart-fill,.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar p{
+    color: rgb(18, 18, 78);
+}
+/*============================================== 
+                HEADER
+===============================================*/
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 14px 1px rgba(0, 0, 0, 0.264);
+   }
+  header .logo{
+       display: flex;
+   }
+  header .logo_image img{
+       width: 30px;
+       margin-top: 5px;
+   }
+   header .menu ul{
+       list-style: none;
+       display: flex;
+   }
+   header .menu ul li{
+       margin-left: 15px;
+   }
+
+
+.corps{
+    z-index: 20;
+}
+/*juste sous le header*/
+.ss-header-flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 110px 0px 110px;
+}
+
+.ss-header-flex-txt{
+    margin: 120px 0px;
+}
+.ss-header-flex-txt-vert{
+   
+    font-size: 20px;
+    
+}
+.ss-header-flex-txt-grandbleu{
+    font-size: 80px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.ss-header-flex-txt-bouton{
+    background-color: rgb(23, 23, 109);
+    border: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+.ss-header-flex-spa{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.ss-header-flex-spa img{
+    width: 450px;
+
+}
+/*nos recette */
+.nos_recette{
+    background-color: rgba(233, 227, 227, 0.726);
+   
+}
+.nos_recette-absolutehaut{
+    margin: auto;
+    width: 300px;
+}
+.nos_recette-absolutehaut-petit-vert,.A_propos-absolutehaut-petit-vert{
+    font-family: 'greylight demo';
+    margin: 0px auto ;
+    font-size:20px;
+    width: 50%;
+    text-align:center;
+}
+.nos_recette-absolutehaut-moyen-bleu,.A_propos-absolutehaut-moyen-bleu{
+    font-size: 25px;
+    margin: 0px auto 15px auto;
+    color: rgb(19, 19, 90);
+    text-align:center;
+    text-transform: uppercase;
+}
+.nos_recette-plats_popu{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+   
+}
+.nos_recette-plats_popu-tt{
+    background-color: white;
+    width: 250px;
+    margin: 1px auto 20px auto;
+    border-radius: 3px;
+}
+.nos_recette-plats_popu-tt img{
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+.nos_recette-plats_popu-tt-img2{
+    height: 155px;
+}
+.nos_recette-plats_popu-tt-autonom{ 
+    margin: 12px auto;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.nos_recette-plats_popu-tt-autostar{
+    margin: 12px auto;
+    width: 40%;
+    display: flex;
+}
+.bibi-star-fill,.bibi-star-half{
+    width: 15px;
+    display: block;
+    margin: auto;
+}
+.nos_recette-plats_popu-tt-autoprix{
+    margin: 12px auto;
+    width: 45%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+}
+.nos_recette-plats_popu-tt-autobouton{
+    margin: 12px auto;
+    width: 40%;
+    
+}
+/* A Propos*/
+.A_propos-absolutehaut{
+    margin: auto;
+    width: 600px;
+}
+.A_propos-txtXimg{ /*text et image combiné (le grand)*/
+    display: flex;
+    margin: 30px auto 0px auto ;
+    width: 90%;
+    height:520px;
+    
+}
+.A_propos-img{
+    width:50%;
+}
+.A_propos-img img{
+    margin: 40px auto;
+    width: 100%;
+}
+.A_propos-txt_a_gauche{
+    margin-top: 60px;
+   
+    width: 600px;
+    padding-left: 30px;
+
+}
+.A_propos-txt_a_gauche-titre{
+    font-size: 45px;
+    margin: 25px 5px;
+}
+.A_propos-txt_a_gauche-txt p{
+    margin-bottom: 3px;
+    text-align: justify;
+}
+.A_propos-txt_a_gauche-modeliv{
+    display: flex;
+    justify-content:space-around;
+    margin: 24px 0px 20px 0px;
+}
+.A_propos-txt_a_gauche-modeliv-acces{
+    margin-right:10px ;
+    width: 33%;
+    height: 40px;
+    background-color: rgb(214, 217, 219);
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.575) inset;
+}
+.A_propos-txt_a_gauche-modeliv-acces-group1,.A_propos-txt_a_gauche-modeliv-acces-group2,.A_propos-txt_a_gauche-modeliv-acces-group3{
+    display: flex;
+    margin: 10px auto;
+    
+}
+.A_propos-txt_a_gauche-modeliv-acces-group1{
+    width: 82%;
+}
+.A_propos-txt_a_gauche-modeliv-acces-group2{
+    width: 90%;
+
+}
+.A_propos-txt_a_gauche-modeliv-acces-group3{
+    width: 59%;
+}
+.A_propos-txt_a_gauche-modeliv-acces-group1 img{
+    height: 17px;
+}
+.A_propos-txt_a_gauche-modeliv-acces img{
+    width: 20px; 
+    margin: auto;
+}
+.A_propos-txt_a_gauche-modeliv-acces p{
+    margin: auto;
+}
+.A_propos-txt_a_gauche-btn-button{
+    background-color: rgb(18, 18, 78);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 90px;
+    margin: 10px 0px 0px 0px ;
+    height: 30px;
+    font-size: 15px;
+}
+/*nos menu*/
+.nos_menu{
+    background-color: rgba(233, 227, 227, 0.726);
+   
+}
+.nos-menu-menu_tt{
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.nos-menu-menu_tt-1{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin: 23px auto;
+}
+.nos-menu-menu_tt-1-1{
+    width: 250px; 
+    background-color: white;
+    word-wrap: break-word;
+    position: relative;
+    border-radius: 5px;
+}
+.nos-menu-menu_tt-1-1 .bibi-suit-heart-fill{
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    background-color: rgba(255, 255, 255, 0.897);
+    padding: 10px;
+    border-radius: 20px;
+}
+.nos-menu-menu_tt-1-1-height{
+    height: 155px;
+}
+.nos-menu-menu_tt-1-1 img{
+    width: 93%;
+    
+    display: block;
+    margin: 3px auto 10px auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.nos-menu-menu_tt-1-1 .nos_recette-plats_popu-tt-autostar{
+    margin: 12px 5px;
+}
+.nos-menu-menu_tt-1-1 .nos_recette-plats_popu-tt-autonom,.nos-menu-menu_tt-1-1 .nos_recette-plats_popu-tt-autoprix,.nos-menu-menu_tt-1-1 .nos_recette-plats_popu-tt-autobouton {
+    margin: 5px 5px;
+    text-align: left;
+}
+.nos-menu-menu_tt-1-1-parasimple{
+    line-height: 25px;
+    padding-left: 7px;
+}
+.nos_menu .ss-header-flex-txt-bouton{
+    margin-bottom: 15px;
+}
+/* retour des clients*/
+.retour_client-avis_tt{
+    width: 83%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.retour_client-avis_tt-1{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 3px 7px 10px 1px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex{
+    display: flex;
+    margin-bottom: 20px;
+}
+.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar{
+    margin: 10px 0px 0px 5px;
+    height: 50px;
+}
+.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar p{
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+}
+.retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar .retour_client-avis_tt-1-tête-nomXtofXstar_gaucheflex-nomXstar-autostar{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+.retour_client-avis_tt-1-txt{
+    line-height: 25px;
+}
+/*commander maintenant*/
+.Commander_maintenant{
+    background-color: rgba(233, 227, 227, 0.726);
+    
+}
+.Commander_maintenant-formulaire-tt{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: white;
+}
+.Commander_maintenant-formulaire-tt-gauche,.Commander_maintenant-formulaire-tt-droite{
+    width: 45%;
+}
+.Commander_maintenant-formulaire-tt  input{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(233, 227, 227, 0.726);
+    border: none;
+    padding-left: 12px;
+}
+
+.Commander_maintenant-formulaire-tt  input::placeholder,.Commander_maintenant-formulaire-tt textarea::placeholder{
+    color: rgba(18, 18, 78, 0.815);
+    
+}
+.Commander_maintenant-formulaire-tt textarea{
+    width: 100%;
+    min-width: 100%;
+    height: 170px;
+    min-height: 170px;
+    max-height: 170px;
+    max-width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(233, 227, 227, 0.726);
+    border: none;
+    padding-left: 12px;
+}
+button{
+    width: 40%;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg,rgba(16, 104, 16, 0.658),rgb(18, 18, 78));
+}
